@@ -13,7 +13,7 @@ class SecondWorker(
     override fun doWork(): Result {
         //Get the parameter input
         val id = inputData.getString(INPUT_DATA_ID)
-        //Sleep the process for 3 seconds
+        //Sleep the process for 3seconds
         Thread.sleep(3000L)
         //Build the output based on process result
         val outputData = Data.Builder()
